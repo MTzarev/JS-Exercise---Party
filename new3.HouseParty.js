@@ -16,7 +16,7 @@ function houseParty(arr) {
             } else {
                 guests.push(name);
             };
-        }
+        };
     }
     console.log(guests.join(`\n`));
 }
