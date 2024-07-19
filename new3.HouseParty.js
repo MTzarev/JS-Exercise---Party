@@ -15,7 +15,7 @@ function houseParty(arr) {
                 console.log(`${name} is already in the list!`);
             } else {
                 guests.push(name);
-            }
+            };
         }
     }
     console.log(guests.join(`\n`));
