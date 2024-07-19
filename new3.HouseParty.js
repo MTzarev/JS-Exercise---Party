@@ -17,7 +17,7 @@ function houseParty(arr) {
                 guests.push(name);
             };
         };
-    }
+    };
     console.log(guests.join(`\n`));
 }
 houseParty(['Allie is going!','George is going!','John is not going!','George is not going!']);
