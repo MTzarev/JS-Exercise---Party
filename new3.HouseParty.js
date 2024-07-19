@@ -20,12 +20,4 @@ function houseParty(arr) {
     }
     console.log(guests.join(`\n`));
 }
-houseParty(['Allie is going!',
-    'George is going!',
-    'John is not going!',
-    'George is not going!']);
-// houseParty(['Tom is going!',
-//     'Annie is going!',
-//     'Tom is going!',
-//     'Garry is going!',
-//     'Jerry is going!']);
+houseParty(['Allie is going!','George is going!','John is not going!','George is not going!']);
